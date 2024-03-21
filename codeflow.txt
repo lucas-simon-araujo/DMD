@@ -1,0 +1,27 @@
+				(ack/ras)_stat_surf.epsc
+				(ack/ras)_stat_cont.epsc
+					  ^
+					  |
+				  plot_stat_field.m				(ack/ras)_sv.epsc
+		    			  ^						^
+		    			  |						|
+		stat_field.m -> (ack/ras)_stat_field.mat			   plot_sv.m
+acley.m      /										^
+											|				
+rastrigin.m  \
+		dyn_field.m  -> (ack/ras)_dyn_field.mat	 -> dmd_recons.m -> (ack/ras)_rec_field.mat
+		    			  |			^  			|
+		    			  v			|			v
+				   plot_dyn_field.m	      dmd.m		plot_rec_field.m	
+		        		  |		   pre_proc.m			|
+					  v		   post_proc.m			v
+			(ack/ras)_dyn_cont_(1/.../100).png		(ack/ras)_com_cont_(1/.../100).png			
+			(ack/ras)_dyn_surf_(1/.../100).png		(ack/ras)_com_surf_(1/.../100).png
+				(ack/ras)_dyn_inst.epsc				(ack/ras)_com_inst.epsc
+
+
+*use the higer number for more recent version of code
+e.g. use 'dyn_field4' instead of 'dyn_field' 
+*(o1/o2) means option 1 or option 2
+* .mat are data while .m are codes
+* .png and .eps are figures, static are .eps for more quality and dynamic are .png to enable animation
