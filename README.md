@@ -6,7 +6,7 @@
 
 ## Reproducibility
 
-Simulations done with **STONEHENGE** are fully reproducible, as can be seen on this <a href="https://codeocean.com/capsule/4891890/tree/v1" target="_blank">CodeOcean capsule</a>
+Simulations done with **DMD** are fully reproducible, as can be seen on this <a href="https://codeocean.com/capsule/4891890/tree/v1" target="_blank">CodeOcean capsule</a>
 
 ## Authors
 - Lucas Simon Araújo
@@ -25,5 +25,5 @@ Simulations done with **STONEHENGE** are fully reproducible, as can be seen on t
 
 ## Funding
 
-<img src="logo/faperj.jpg" width="20%"> &nbsp; &nbsp; <img src="logo/cnpq.png" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">
+<img src="logo/faperj.jpg" width="20%"> &nbsp; &nbsp; <img src="logo/capes.png" width="10%">
           
