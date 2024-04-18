@@ -6,7 +6,7 @@
 
 ## Reproducibility
 
-Simulations done with **DMD** are fully reproducible, as can be seen on this <a href="https://codeocean.com/capsule/4891890/tree/v1" target="_blank">CodeOcean capsule</a>
+Simulations done with **DMD** are fully reproducible, as can be seen on this <a href="link" target="_blank">CodeOcean capsule</a>
 
 ## Authors
 - Lucas Simon Araújo
